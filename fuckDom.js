@@ -262,6 +262,7 @@ const DOMUtils = {
   }
 };
 
+export default DOMUtils;
 // Example usage:
 // const element = DOMUtils.selector('#myElement');
 // DOMUtils.addClass(element, 'active');

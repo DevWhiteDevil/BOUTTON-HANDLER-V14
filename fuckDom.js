@@ -1,4 +1,3 @@
-const DOMUtils = {
   // Select single element
   selector(query) {
     return document.querySelector(query);
@@ -261,8 +260,6 @@ const DOMUtils = {
     }
   }
 };
-
-export { DOMUtils };
 // Example usage:
 // const element = DOMUtils.selector('#myElement');
 // DOMUtils.addClass(element, 'active');

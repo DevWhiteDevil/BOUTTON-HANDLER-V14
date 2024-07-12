@@ -1,4 +1,3 @@
-const DOMUtils = {
   // Select single element
   selector(query) {
     return document.querySelector(query);
@@ -260,7 +259,6 @@ const DOMUtils = {
       element.style.display = 'none';
     }
   }
-};
 
 // Example usage:
 // const element = DOMUtils.selector('#myElement');
